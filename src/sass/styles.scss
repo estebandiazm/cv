@@ -1,6 +1,14 @@
 @import './variables';
 @import './mixins';
 
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P|Roboto);
+
 body {
 	min-width:550px;
+	h1 {
+		font-family: 'Audiowide', sans-serif;
+	}
+	P{
+		font-family: 'Roboto', sans-serif;
+	}
 }

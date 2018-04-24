@@ -13,11 +13,9 @@
 		display: inline-block;
 		h1{
 			font-size: 4em;
-	  		font-family: 'Audiowide', sans-serif;
 		}
 		p {
 			font-size: 2em;
-	  		font-family: 'Roboto', sans-serif;
 	  		@media (max-width: 1550px){
 				font-size: 1.5em;
 	  		}
@@ -36,6 +34,6 @@
 		width: 400px;
 		float: right;
 		position: absolute;
-		clip-path: polygon(30% 100%, 0% 0%, 100% 0%, 100% 100%);
+		clip-path: polygon(20% 100%, 40% 70%, 20% 0%, 100% 0%, 100% 100%);
 	}
 }
