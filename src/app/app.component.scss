@@ -1,0 +1,41 @@
+
+@import '~sass/variables';
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Press+Start+2P|Roboto);
+
+.title {
+	height: 400px;
+	width: 100%;
+	background: #333131;
+	color: #FFF;
+	.info {
+		width: 80%;
+		height: 100%;
+		display: inline-block;
+		h1{
+			font-size: 4em;
+	  		font-family: 'Audiowide', sans-serif;
+		}
+		p {
+			font-size: 2em;
+	  		font-family: 'Roboto', sans-serif;
+	  		@media (max-width: 1550px){
+				font-size: 1.5em;
+	  		}
+	  		@media (max-width: 1050px){
+				font-size: 1em;
+	  		}
+		}
+		h1, p {
+			color: #FFF;
+		}
+		.list-group-item {
+			background: transparent;
+		}
+	}
+	.img-profile {
+		width: 400px;
+		float: right;
+		position: absolute;
+		clip-path: polygon(30% 100%, 0% 0%, 100% 0%, 100% 100%);
+	}
+}
